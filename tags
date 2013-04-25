@@ -1,0 +1,104 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BINDIR	filter/Makefile	/^BINDIR       ?= $(OCLBINDIR)\/linux\/release$/;"	m
+BINDIR	scan/Makefile	/^BINDIR       ?= $(OCLBINDIR)\/linux\/release$/;"	m
+BINDIR	smaller/Makefile	/^BINDIR       ?= $(OCLBINDIR)\/linux\/release$/;"	m
+CHECK	filter/filter.cpp	187;"	d	file:
+CHECK	scan/scan.cpp	187;"	d	file:
+CHECK	smaller/smaller.cpp	187;"	d	file:
+CUDA_INSTALL_PATH	filter/Makefile	/^CUDA_INSTALL_PATH := \/usr\/local\/cuda$/;"	m
+CUDA_INSTALL_PATH	scan/Makefile	/^CUDA_INSTALL_PATH := \/usr\/local\/cuda$/;"	m
+CUDA_INSTALL_PATH	smaller/Makefile	/^CUDA_INSTALL_PATH := \/usr\/local\/cuda$/;"	m
+CXX	filter/Makefile	/^CXX = g++$/;"	m
+CXX	scan/Makefile	/^CXX = g++$/;"	m
+CXX	smaller/Makefile	/^CXX = g++$/;"	m
+INCDIR	filter/Makefile	/^INCDIR	     ?= .$/;"	m
+INCDIR	scan/Makefile	/^INCDIR	     ?= .$/;"	m
+INCDIR	smaller/Makefile	/^INCDIR	     ?= .$/;"	m
+LIBDIR	filter/Makefile	/^LIBDIR     := $(ROOTDIR)\/shared\/lib$/;"	m
+LIBDIR	scan/Makefile	/^LIBDIR     := $(ROOTDIR)\/shared\/lib$/;"	m
+LIBDIR	smaller/Makefile	/^LIBDIR     := $(ROOTDIR)\/shared\/lib$/;"	m
+LINK	filter/Makefile	/^LINK = g++  -g $/;"	m
+LINK	scan/Makefile	/^LINK = g++  -g $/;"	m
+LINK	smaller/Makefile	/^LINK = g++  -g $/;"	m
+MAX_SOURCE_SIZE	init.hpp	16;"	d
+OCLBINDIR	filter/Makefile	/^OCLBINDIR    ?= $(OCLROOTDIR)\/bin$/;"	m
+OCLBINDIR	scan/Makefile	/^OCLBINDIR    ?= $(OCLROOTDIR)\/bin$/;"	m
+OCLBINDIR	smaller/Makefile	/^OCLBINDIR    ?= $(OCLROOTDIR)\/bin$/;"	m
+OCLCOMMONDIR	filter/Makefile	/^OCLCOMMONDIR ?= $(OCLROOTDIR)\/common$/;"	m
+OCLCOMMONDIR	scan/Makefile	/^OCLCOMMONDIR ?= $(OCLROOTDIR)\/common$/;"	m
+OCLCOMMONDIR	smaller/Makefile	/^OCLCOMMONDIR ?= $(OCLROOTDIR)\/common$/;"	m
+OCLLIBDIR	filter/Makefile	/^OCLLIBDIR    := -L$(OCLCOMMONDIR)\/lib -L$(LIBDIR) -lOpenCL$/;"	m
+OCLLIBDIR	scan/Makefile	/^OCLLIBDIR    := -L$(OCLCOMMONDIR)\/lib -L$(LIBDIR) -lOpenCL$/;"	m
+OCLLIBDIR	smaller/Makefile	/^OCLLIBDIR    := -L$(OCLCOMMONDIR)\/lib -L$(LIBDIR) -lOpenCL$/;"	m
+OCLROOTDIR	filter/Makefile	/^OCLROOTDIR := $(ROOTDIR)\/OpenCL$/;"	m
+OCLROOTDIR	scan/Makefile	/^OCLROOTDIR := $(ROOTDIR)\/OpenCL$/;"	m
+OCLROOTDIR	smaller/Makefile	/^OCLROOTDIR := $(ROOTDIR)\/OpenCL$/;"	m
+PERFORMANCE	filter/filter.cpp	107;"	d	file:
+PERFORMANCE	scan/scan.cpp	107;"	d	file:
+PERFORMANCE	smaller/smaller.cpp	107;"	d	file:
+Plan	init.hpp	/^typedef struct Plan{$/;"	s
+Plan	init.hpp	/^}Plan;$/;"	t	typeref:struct:Plan
+ROOTDIR	filter/Makefile	/^ROOTDIR    := \/opt\/NVIDIA_GPU_Computing_SDK$/;"	m
+ROOTDIR	scan/Makefile	/^ROOTDIR    := \/opt\/NVIDIA_GPU_Computing_SDK$/;"	m
+ROOTDIR	smaller/Makefile	/^ROOTDIR    := \/opt\/NVIDIA_GPU_Computing_SDK$/;"	m
+SHAREDDIR	filter/Makefile	/^SHAREDDIR  := $(ROOTDIR)\/shared$/;"	m
+SHAREDDIR	scan/Makefile	/^SHAREDDIR  := $(ROOTDIR)\/shared$/;"	m
+SHAREDDIR	smaller/Makefile	/^SHAREDDIR  := $(ROOTDIR)\/shared$/;"	m
+SRCS	filter/Makefile	/^SRCS = ..\/init.cpp filter.cpp $/;"	m
+SRCS	scan/Makefile	/^SRCS = ..\/init.cpp scan.cpp $/;"	m
+SRCS	smaller/Makefile	/^SRCS = ..\/init.cpp smaller.cpp $/;"	m
+TARGET	filter/Makefile	/^TARGET = filter$/;"	m
+TARGET	scan/Makefile	/^TARGET = scan$/;"	m
+TARGET	smaller/Makefile	/^TARGET = smaller$/;"	m
+TimeRcd	init.hpp	/^}TimeRcd;$/;"	t	typeref:struct:TimeRecord
+TimeRecord	init.hpp	/^typedef struct TimeRecord{$/;"	s
+arrayinit	init.cpp	/^void arrayinit(int *data,int elemnum,int range)$/;"	f
+check	filter/filter.cpp	/^int check(int* c,int *g,int elemnum)$/;"	f
+check	scan/scan.cpp	/^int check(int* c,int *g,int elemnum)$/;"	f
+check	smaller/smaller.cpp	/^int check(int* c,int *g,int elemnum)$/;"	f
+clContext	init.hpp	/^typedef struct clContext{$/;"	s
+clContext	init.hpp	/^}clContext;$/;"	t	typeref:struct:clContext
+coalesced	init.hpp	/^    int coalesced;$/;"	m	struct:Plan
+command_queue	init.hpp	/^    cl_command_queue command_queue;$/;"	m	struct:clContext
+context	init.hpp	/^    cl_context context;$/;"	m	struct:clContext
+cpuScan	filter/filter.cpp	/^void cpuScan(int *input,int elemnum,int *output)$/;"	f
+cpuScan	scan/scan.cpp	/^void cpuScan(int *input,int elemnum,int *output)$/;"	f
+cpuScan	smaller/smaller.cpp	/^void cpuScan(int *input,int elemnum,int *output)$/;"	f
+create	init.cpp	/^void create(clContext *clCxt, cl_mem *mem, int len)$/;"	f
+cta	init.hpp	/^    int cta;$/;"	m	struct:Plan
+device_id	init.hpp	/^    cl_device_id device_id;$/;"	m	struct:clContext
+download	init.cpp	/^void download(clContext *clCxt,cl_mem *gdata,void *data,int data_len)$/;"	f
+dynamic_task	init.hpp	/^    int dynamic_task;$/;"	m	struct:Plan
+executeKernel	init.cpp	/^void executeKernel(string source,string kernelName, vector< pair<size_t,const void *> > args,$/;"	f
+filter	filter/filter.cpp	/^void filter(clContext *clCxt,cl_mem &ginput,cl_mem &goutput,Plan *plan,int elemnum)$/;"	f
+getClContext	init.cpp	/^void getClContext(clContext *clCxt)$/;"	f
+kerneltime	init.hpp	/^   double kerneltime,totaltime;$/;"	m	struct:TimeRecord
+localmemgroup	init.hpp	/^    int localmemgroup;$/;"	m	struct:Plan
+localthread	init.hpp	/^    int localthread;$/;"	m	struct:Plan
+main	filter/filter.cpp	/^int main()$/;"	f
+main	scan/scan.cpp	/^int main()$/;"	f
+main	smaller/smaller.cpp	/^int main()$/;"	f
+min_cputime	init.hpp	/^   double min_cputime;$/;"	m	struct:TimeRecord
+min_kerneltime	init.hpp	/^   double min_kerneltime, min_totaltime;$/;"	m	struct:TimeRecord
+min_totaltime	init.hpp	/^   double min_kerneltime, min_totaltime;$/;"	m	struct:TimeRecord
+num_devices	init.hpp	/^    cl_uint num_devices;$/;"	m	struct:clContext
+num_platforms	init.hpp	/^    cl_uint num_platforms;$/;"	m	struct:clContext
+platform_id	init.hpp	/^    cl_platform_id platform_id;$/;"	m	struct:clContext
+program	init.hpp	/^    vector< pair<string,cl_program *> > program;   $/;"	m	struct:clContext
+registergroup	init.hpp	/^    int registergroup;$/;"	m	struct:Plan
+releaseContext	init.cpp	/^void releaseContext(clContext *clCxt)$/;"	f
+scan	scan/scan.cpp	/^void scan(clContext *clCxt,cl_mem &ginput,cl_mem &goutput,Plan *plan,int elemnum)$/;"	f
+smaller	smaller/smaller.cpp	/^void smaller(clContext *clCxt,cl_mem &ginput,cl_mem &goutput,Plan *plan,int elemnum)$/;"	f
+test_filter	filter/filter.cpp	/^void test_filter(clContext *clCxt,int elemnum)$/;"	f
+test_scan	scan/scan.cpp	/^void test_scan(clContext *clCxt,int elemnum)$/;"	f
+test_smaller	smaller/smaller.cpp	/^void test_smaller(clContext *clCxt,int elemnum)$/;"	f
+timeRcd	init.cpp	/^TimeRcd timeRcd;$/;"	v
+totaltime	init.hpp	/^   double kerneltime,totaltime;$/;"	m	struct:TimeRecord
+upload	init.cpp	/^void upload(clContext *clCxt,void *data,cl_mem *gdata,int datalen)$/;"	f
+vectorlength	init.hpp	/^    int vectorlength;$/;"	m	struct:Plan
+workgroup	init.hpp	/^    int workgroup;$/;"	m	struct:Plan
