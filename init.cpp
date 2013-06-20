@@ -17,7 +17,7 @@ void getClContext(clContext *clCxt)
         return ;
     }
     cout << "platforms_num:"<<num_platforms<<endl;
-    clCxt->platform_id = platforms[1];
+    clCxt->platform_id = platforms[0];
     cl_context_properties cps[3] = { CL_CONTEXT_PLATFORM,(cl_context_properties) (clCxt->platform_id), 0};
     cl_context_properties *cprops = (NULL == clCxt->platform_id) ? NULL :cps;
 	  //create OpenCL context
