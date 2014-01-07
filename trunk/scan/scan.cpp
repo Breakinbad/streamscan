@@ -127,7 +127,7 @@ void test_scan(clContext *clCxt,int elemnum)
 
 //#define PRINT_R 
 #define CHECK
-//#define PERFORMANCE
+#define PERFORMANCE
 #if defined PERFORMANCE
     //coalesced performance 
     for(int vec=1;vec<=2;vec++)
