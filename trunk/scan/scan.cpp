@@ -130,7 +130,7 @@ void test_scan(clContext *clCxt,int elemnum)
 #define PERFORMANCE
 #if defined PERFORMANCE
     //coalesced performance 
-    for(int vec=1;vec<=2;vec++)
+    for(int vec=2;vec>=1;vec--)
         for(int lt=128;lt<=256;lt<<=1)
             for(int ct=8;ct<=32;ct<<=1)
                 for(int regp=0;regp<=8&&regp*ct<240;regp++)
